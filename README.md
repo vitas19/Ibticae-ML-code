@@ -34,18 +34,19 @@ Con esto comenzará la descarga, una vez finalizado se deberá abrir para termin
 
 #### CONTINUAR CON EL OTRO ORDENADOR DELANTE
 
-### 1.3. Instalar los paquetes en VSCode
-Una vez se haya instalado lo anterior, podremos instalar los paquetes necesarios para este proyecto.
-pip install numpy tensorflow scipy scikit-image matplotlib ipython opencv-python
+
 
 
 ## 2. Clonar repositorio
 
 <p align="center">
-<img src="fotos/github1.png" width="500" height="200">
-<img src="fotos/github2.png" width="500" height="200">
+<img src="fotos/github1.png" width="600" height="200">
+<img src="fotos/github2.png" width="600" height="300">
 </p>
 
+### 2.1. Instalar los paquetes en VSCode
+Una vez se haya instalado lo anterior, podremos instalar los paquetes necesarios para este proyecto.\
+pip install numpy tensorflow scipy scikit-image matplotlib ipython opencv-python
 
 ## 3. Uso del código
 Los archivos que contiene este repositorio se pueden diferenciar en dos:
