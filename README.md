@@ -58,7 +58,11 @@ Con esto comenzará la descarga, una vez finalizado se deberá abrir para termin
 <img src="fotos/github2.png" width="600" height="300">
 </p>
 
-### 2.1. Instalar los paquetes en VSCode
+### 2.1. Descargar e incluir archivo de pesos
+Se deberá descargar el siguiente archivo que debe de incluirse en la carpeta de mrcnn para el correcto funcionamiento:
+[mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)
+
+### 2.2. Instalar los paquetes en VSCode
 Una vez se haya instalado lo anterior, podremos instalar los paquetes necesarios para este proyecto.\
 pip install numpy tensorflow scipy scikit-image matplotlib ipython opencv-python
 
