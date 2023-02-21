@@ -1,3 +1,7 @@
+# Enables the usage of a interface that presents a photograph with two 
+# buttons that with one you select the image and with the other it 
+# computes the output.
+
 import tkinter as tk
 from tkinter import filedialog
 from PIL import ImageTk, Image  
@@ -5,7 +9,10 @@ from PIL import ImageTk, Image
 class PhotoSelector:
     def __init__(self):
         self.root = tk.Tk()
+
+        # Title of the window
         self.root.title("Photo Selector")
+        # Size of the window
         self.root.geometry('800x250')
         self.file_path = None
 
@@ -25,7 +32,7 @@ class PhotoSelector:
         self.select_button = tk.Button(self.root, text="1. Seleccionar imagen",font=("Dubai", 20),bg="#0F2D92", fg="#FFFFFF", command=self.select_photo)
         self.select_button.place(x=280, y=70)
         
-        # Create a button to close the interface
+        # Create a button to close the interface (show result)
         self.close_button = tk.Button(self.root, text="2. Mostrar resultado",font=("Dubai", 20),bg="#0F2D92", fg="#FFFFFF", command=self.root.destroy)
         self.close_button.place(x=460, y=160)
         

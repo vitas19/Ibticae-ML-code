@@ -1,6 +1,6 @@
 # PROGRAMA COGE VIDEO DESDE LA CÁMARA DEL ORDENADOR Y ANALIZA FOTOGRAMA POR FOTOGRAMA
 # DEVUELVE FOTOS (NO VIDEO COMPILADO)
-
+# NO CAPADO A SOLO BOTELLAS
 
 import mrcnn
 import mrcnn.config
@@ -64,7 +64,11 @@ while success:
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     height, width,layers = image.shape
     size = (width, height)
-    out = cv2.VideoWriter('prueba.avi', cv2.VideoWriter_fourcc(*'DIVX'),15,size)
+    
+    
+    #out = cv2.VideoWriter('prueba.avi', cv2.VideoWriter_fourcc(*'DIVX'),15,size)
+    
+    
     # Perform a forward pass of the network to obtain the results
     r = model.detect([image], verbose=0)
 

@@ -2,9 +2,6 @@
 Mask R-CNN
 Display and Visualization Functions.
 
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License (see LICENSE for details)
-Written by Waleed Abdulla
 """
 
 import os
@@ -27,7 +24,6 @@ ROOT_DIR = os.path.abspath("../")
 sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn import utils
 
-img_array=[]
 ############################################################
 #  Visualization
 ############################################################
@@ -176,15 +172,9 @@ def display_instances(image, boxes, masks, class_ids, class_names,
         plt.savefig(save_fig_path, bbox_inches="tight")
         print("If not")
     if auto_show:
-        img_array.append(masked_image)
-        print("auto_show")
-
-        print(type(masked_image))
         plt.show()
 
 def no_bottle(image):
-    img_array.append(image)
-    print(img_array)
     plt.imshow(image) 
     plt.axis('off')
     plt.show()
