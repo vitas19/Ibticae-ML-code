@@ -1,7 +1,21 @@
 # Prácticas IBTICAE
 
 ## 0. Especificaciones técnicas
+### 0.1. Sistema
+- Windows 7 o superior (64 bits)
 
+
+### 0.2. Software
+La configuración que se presenta a continuación ha sido la usada para este proyecto, pero las versiones pueden variar para cada usuario:
+- Python v. 3.10.9 (válido v. 3.7 - 3.10)
+- Tensorflow v. 2.11.0 (válido v. 2.x)
+- pip v. 22.3.1 (válido v. 20.3 y superiores)
+- numpy v. 1.24.1
+- scipy v. 1.10.0
+- scikit-image v. 0.19.3
+- matplotlib v. 3.6.3
+- ipython v. 8.9.0
+- opencv-python v. 4.7.0.68
 
 
 ## 1. Instalaciones previas
@@ -55,8 +69,18 @@ Los archivos que contiene este repositorio se pueden diferenciar en dos:
 
 ### 3.1. Archivos dentro de la carpeta mrcnn
 Comenzando con los archivos que se encuentran dentro de la carpeta mrcnn, estos son la configuración del código que está compuesta por distintas funciones que permiten el correcto funcionamiento del programa. Se pueden editar si es necesaria alguna actialización del código debido a nuevas versiones pero en otro caso no debe de ser cambiado.
+- config.py: 
+- model.py:
+- utils.py:
+- interfaz.py:
+- visualize.py:
+- visualize2.py:
+
 
 ### 3.2. Archivos fuera de la carpeta mrcnn
-Por otro lado los archivos que se encuentran fuera de esta carpeta
+Por otro lado los archivos que se encuentran fuera de esta carpeta son los códigos que permiten realizar diferentes funciones para desarrollar distintas acciones.
+- con_intefaz.py: 
+- solo_botellas.py:
+- video_prueba.py:
 
 
